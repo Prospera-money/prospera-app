@@ -1,23 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 node_modules
 .pnp
 .pnp.js
+.vscode
+
+# testing
+coverage
+
+lib
+dist
+.local.env
+storybook-static
+
+
+# misc
 .DS_Store
+*.pem
+/apps/test-app/*.mjs
+.npmrc
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.idea
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log
-.scannerwork
-.terraform
-terraform.tfstate*
-build-storybook.log
-lib
-dist
-.local.env
+
+# turbo
 .turbo
-storybook-static
-.npmrc
+
+lib
+
+build-storybook.log

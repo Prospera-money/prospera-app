@@ -1,0 +1,15 @@
+{
+    "extends": "@prospera/configs/confs/ts/tsconfig",
+    "include": ["src"],
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "outDir": "lib",
+      // NOTE(gabro): without this, vars.css.ts does not compile.
+      // This implements the fix suggested at https://github.com/microsoft/TypeScript/issues/29808#issuecomment-540292885
+      "paths": {
+        "clsx": ["node_modules/clsx"]
+      },
+      "baseUrl": "."
+    }
+  }
+  

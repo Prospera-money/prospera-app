@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "watch": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+    "lint": "eslint src/",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^5.11.1"
+    "antd": "^5.11.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@prospera/configs": "^1.0.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }

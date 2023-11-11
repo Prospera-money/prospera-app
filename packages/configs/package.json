@@ -1,0 +1,17 @@
+{
+    "private": false,
+    "name": "@prospera/configs",
+    "version": "1.0.0",
+    "main": "conf",
+    "exports": {
+        "./confs/eslint": "./confs/eslint/index.js",
+        "./confs/ts/tsconfig": "./confs/ts/tsconfig.json",
+        "./confs/ts/tsconfig.node": "./confs/ts/tsconfig.node.json"
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "peerDependencies": {
+        "eslint": "8.53.0"
+    },
+    "dependencies": {}
+}

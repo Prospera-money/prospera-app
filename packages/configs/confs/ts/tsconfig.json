@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "allowJs": false,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "pretty": true,
+      "forceConsistentCasingInFileNames": true,
+      "removeComments": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "esnext",
+      "skipLibCheck": true,
+      "preserveSymlinks": true,
+      "declaration": true,
+      "declarationMap": true,
+    }
+  }
+  

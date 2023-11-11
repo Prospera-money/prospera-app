@@ -13,6 +13,12 @@
     "money"
   ],
   "author": "",
-  "workspaces": ["/packages/*"],
-  "license": "ISC"
+  "workspaces": [
+    "/packages/*"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "turbo": "^1.10.16"
+  }
 }
