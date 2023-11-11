@@ -4,7 +4,9 @@
   "description": "Opensource project to manage your heritage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "watch": "turbo run watch"
   },
   "keywords": [
     "money",
@@ -19,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.53.0",
-    "turbo": "^1.10.16"
+    "turbo": "^1.10.16",
+    "typescript": "^5.2.2"
   }
 }

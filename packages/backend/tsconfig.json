@@ -1,0 +1,11 @@
+{
+    "extends": "@prospera/configs/confs/ts/tsconfig.node",
+    "include": ["src"],
+    "compilerOptions": {
+      "outDir": "lib",
+      "preserveSymlinks": true,
+      "declaration": true,
+      "declarationMap": true
+    }
+  }
+  
